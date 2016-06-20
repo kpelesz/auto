@@ -1,5 +1,8 @@
 #!/bin/bash
-list=list.txt
+
+#Make sure to specify the file with the list of urls
+
+list=$1
 
 while read i; do
 echo $i  
