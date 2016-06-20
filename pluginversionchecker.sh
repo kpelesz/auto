@@ -34,6 +34,7 @@ if [[ $# -eq 0 ]]; then
   echo '"pluginversionchecker.sh file.txt <wordpress/drupal>"'
 fi
 #------------------One Parameter, Auto uses list.txt
+#Improvement, ensure that it can pick from any file
 
 elif [ $# -eq 1 ]; then
   list=$(cat list.txt)
