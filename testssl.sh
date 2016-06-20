@@ -4273,6 +4273,7 @@ determine_optimal_proto() {
 
 	if [[ $all_failed -eq 0 ]]; then
 	echo "failed abc"
+exit
 	fi
 }
 
