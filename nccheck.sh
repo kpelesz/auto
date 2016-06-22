@@ -7,7 +7,7 @@
 #Future improvements - Use nmap xml file
 #Future improvements - Remove blank outputs
 
-if [[ $1 -eq 0 ]]; then
+if [[ $# -eq 0 ]]; then
 	echo '	This will send a bunch of As to netcat based on a provided list of ips and ports.'
 	echo ''
 	echo '"nccheck iplist.txt | aha >file.html"'
