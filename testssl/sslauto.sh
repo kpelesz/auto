@@ -3,6 +3,8 @@
 #Must have testssl script
 #Future improvements - Run from nmap xml file
 
+#PAIRED WITH FORKED VERSION OF TESTSSL.SH, WILL NOT WORK WITHOUT FORKED VERSION
+
 if [[ $1 -eq 0 ]]; then
 	echo '"sslauto.sh iplist.txt directoryname"'
 	echo ''
