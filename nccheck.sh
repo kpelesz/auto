@@ -6,6 +6,7 @@
 
 #Future improvements - Use nmap xml file
 #Future improvements - Remove blank outputs
+#Future improvements - Multi-process?
 
 if [[ $# -eq 0 ]]; then
 	echo '	This will send a bunch of As to netcat based on a provided list of ips and ports.'
