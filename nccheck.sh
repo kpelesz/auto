@@ -23,8 +23,6 @@ while read i; do
 		echo $i
 		timeout 10 nc $i < a.txt
 		exits=$?
-		echo ""
-		echo ""
 		if [[ $exits -ne 124 ]]; then
 		valid+=("$i")
 		fi
